@@ -42,7 +42,7 @@ UnityEngine.Debug.Log(array_in_c[2])
 num1 = UnityEngine.GameObject.Find("inputnum1").GetComponent("UnityEngine.UI.InputField").text
 num2 = UnityEngine.GameObject.Find("inputnum2").GetComponent("UnityEngine.UI.InputField").text
 
-UnityEngine.Debug.Log("Input numbers in Unity Text objects")
+UnityEngine.Debug.Log("Input numbers in Unity InputField objects")
 UnityEngine.Debug.Log(num1)
 UnityEngine.Debug.Log(num2)
 

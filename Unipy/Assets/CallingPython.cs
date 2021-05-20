@@ -2,9 +2,7 @@ using UnityEditor;
 using UnityEditor.Scripting.Python;
 using UnityEngine;
 using System;
-using System.IO;
-using System.Text;
-using UnityEngine.UI;
+
 
 public class CallingPython : MonoBehaviour
 {

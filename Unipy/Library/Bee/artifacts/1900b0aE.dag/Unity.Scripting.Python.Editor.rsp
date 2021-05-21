@@ -312,6 +312,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/CallingPython.cs"
 "Library/PackageCache/com.unity.scripting.python@4.0.0-exp.5/Editor/PipPackages/LoadPipRequirements.cs"
 "Library/PackageCache/com.unity.scripting.python@4.0.0-exp.5/Editor/PipPackages/PipPackages.cs"
 "Library/PackageCache/com.unity.scripting.python@4.0.0-exp.5/Editor/PythonConsoleWindow.cs"
@@ -330,4 +331,3 @@
 /nowarn:0649
 /utf8output
 /preferreduilang:en-US
--warn:0

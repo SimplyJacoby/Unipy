@@ -6,7 +6,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -50,21 +49,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1520}
+      Script: {instanceID: 1536}
     - Class: 114
-      Script: {instanceID: 2568}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 2774}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 2798}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 3086}
     - Class: 114
-      Script: {instanceID: 5776}
+      Script: {instanceID: 5490}
     - Class: 114
-      Script: {instanceID: 6284}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 35952}
+      Script: {instanceID: 6324}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -208,6 +207,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CallingPython
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -964,12 +969,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CallingPython
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

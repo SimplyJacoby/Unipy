@@ -1,0 +1,150 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Jacob Bream/Documents/Biomojo/Unipy/Unipy6
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63080
+Successfully changed project path to: C:/Users/Jacob Bream/Documents/Biomojo/Unipy/Unipy6
+C:/Users/Jacob Bream/Documents/Biomojo/Unipy/Unipy6
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 89.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jacob Bream/Documents/Biomojo/Unipy/Unipy6/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Vendor:   NVIDIA
+    VRAM:     8010 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001839 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 83.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003146 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy6\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy6\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Disabling WSA platform on asset settings for C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy6\Assets\NuGet.config
+
+DisplayProgressbar: Restoring NuGet Packages
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.1 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3833.
+Total: 2.298000 ms (FindLiveObjects: 0.244100 ms CreateObjectMapping: 0.117600 ms MarkObjects: 1.841100 ms  DeleteObjects: 0.094100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.008376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.118450 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(d0f7016a1fa3d60418db95b2da101ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(d0f7016a1fa3d60418db95b2da101ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52eec249f3035bddd951cbc8c5c59036') in 0.009160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.659135 seconds.
+  path: Assets/Python
+  artifactKey: Guid(12728f60b4045884c880879537faa3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Python using Guid(12728f60b4045884c880879537faa3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2460711575f7e91b5ae9e63ccda8e273') in 0.008098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.440341 seconds.
+  path: Assets/Packages
+  artifactKey: Guid(410455f8d6631b2489a5ec9d2464c341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages using Guid(410455f8d6631b2489a5ec9d2464c341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a888e0340a86c84ca3a0619664e1b0d') in 0.007173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.023836 seconds.
+  path: Assets/Scripts/CallingPython.cs
+  artifactKey: Guid(3936a525c7c07394981d4d59bbfef8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CallingPython.cs using Guid(3936a525c7c07394981d4d59bbfef8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3a6573598e611b2a6edd44532a523b') in 0.031407 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003158 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy6\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy6\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.1 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3842.
+Total: 2.593400 ms (FindLiveObjects: 0.260300 ms CreateObjectMapping: 0.198900 ms MarkObjects: 2.038200 ms  DeleteObjects: 0.095000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.364156 seconds.
+  path: Assets/Scripts/CallingPython.cs
+  artifactKey: Guid(3936a525c7c07394981d4d59bbfef8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CallingPython.cs using Guid(3936a525c7c07394981d4d59bbfef8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bdca978628c82d253170ef1016f2c6') in 0.007318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.592354 seconds.
+  path: Assets/Scripts/CallingPython.cs
+  artifactKey: Guid(3936a525c7c07394981d4d59bbfef8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CallingPython.cs using Guid(3936a525c7c07394981d4d59bbfef8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b561b55f6f720fcfbf3ba76bf72b9893') in 0.002447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.077331 seconds.
+  path: Assets/Scripts/CallingPython.cs
+  artifactKey: Guid(3936a525c7c07394981d4d59bbfef8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CallingPython.cs using Guid(3936a525c7c07394981d4d59bbfef8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b697947ac52915c67430153264d9c86') in 0.002305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13463.017627 seconds.
+  path: Assets/Scripts/CallingPython.cs
+  artifactKey: Guid(3936a525c7c07394981d4d59bbfef8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CallingPython.cs using Guid(3936a525c7c07394981d4d59bbfef8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbf31193e5a9190ec602166ef636e39') in 0.013251 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

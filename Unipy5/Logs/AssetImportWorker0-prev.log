@@ -15,11 +15,11 @@ C:/Users/Jacob Bream/Documents/Biomojo/Unipy/Unipy5
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61361
+61850
 Successfully changed project path to: C:/Users/Jacob Bream/Documents/Biomojo/Unipy/Unipy5
 C:/Users/Jacob Bream/Documents/Biomojo/Unipy/Unipy5
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 302.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 130.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,592 +35,176 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001847 seconds.
+Registered in 0.001976 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 127.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.196 seconds
+- Completed reload, in  1.136 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003077 seconds.
+Registered in 0.007680 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 97.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 128.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.214 seconds
+- Completed reload, in  1.114 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.8 MB.
-System memory in use after: 127.9 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3824.
-Total: 2.249400 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.169100 ms MarkObjects: 1.716700 ms  DeleteObjects: 0.105100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Plugins
-  artifactKey: Guid(f959c856835adce4294b50e80638d44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(f959c856835adce4294b50e80638d44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e449b0cbf5a9b81960124ddfd76b1a4c') in 0.008561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.280932 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1
-  artifactKey: Guid(ac08488cc46c6ea4e8048dd5a4c9722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1 using Guid(ac08488cc46c6ea4e8048dd5a4c9722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7601005f8bd7427837ccbea48a45ec86') in 0.005759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.260100 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net5.0-windows
-  artifactKey: Guid(df713fa36d7f35846a94fea34e8aa289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net5.0-windows using Guid(df713fa36d7f35846a94fea34e8aa289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77079ddc07ae576024b43b4382134921') in 0.007517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.065721 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/netcoreapp2.1
-  artifactKey: Guid(84852b6cc1bb6654fadc59d4e676c949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/netcoreapp2.1 using Guid(84852b6cc1bb6654fadc59d4e676c949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1af31ad600c2a8747df8b5a4bb96aac') in 0.006918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.937397 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/netcoreapp3.1
-  artifactKey: Guid(0fa05f42ff2c3694cbd1d965e631f334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/netcoreapp3.1 using Guid(0fa05f42ff2c3694cbd1d965e631f334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d9cbf70884d7e05b32681ecb86f1fc') in 0.006216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.535207 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/netstandard2.0
-  artifactKey: Guid(184c40b7ca3289840b401fab3b19ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/netstandard2.0 using Guid(184c40b7ca3289840b401fab3b19ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee81b68411893bb7435fc239c71d517') in 0.006775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.063298 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/Lib
-  artifactKey: Guid(021f07628b9fb324cbac40dcf69bb54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/Lib using Guid(021f07628b9fb324cbac40dcf69bb54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ccbefa8f6ec3e4e875c039c5fdc0df') in 0.008122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.334523 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net5.0
-  artifactKey: Guid(57648edcda8903342ae2614b67078e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net5.0 using Guid(57648edcda8903342ae2614b67078e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9ec82bcff3185cc66292bd054eaece') in 0.006146 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006724 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.958 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.6 MB.
+Unloading 3387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.7 MB.
 System memory in use after: 128.7 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3828.
-Total: 2.392900 ms (FindLiveObjects: 0.258900 ms CreateObjectMapping: 0.166800 ms MarkObjects: 1.887200 ms  DeleteObjects: 0.079200 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3826.
+Total: 2.268800 ms (FindLiveObjects: 0.235100 ms CreateObjectMapping: 0.116600 ms MarkObjects: 1.819200 ms  DeleteObjects: 0.097000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.069461 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46
-  artifactKey: Guid(c4e8e6a35b78fd2429ff269505bcce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46 using Guid(c4e8e6a35b78fd2429ff269505bcce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ad56b619e8aa8b164ef109133305e2') in 0.009767 seconds 
+  path: Assets/Plugins/IronPython.3.4.0-alpha1/Lib/site-packages/certifi
+  artifactKey: Guid(96fd6612d88528143be80fd014e4a4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/IronPython.3.4.0-alpha1/Lib/site-packages/certifi using Guid(96fd6612d88528143be80fd014e4a4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c69e7cde63c305c5f8a35af27dcff6d') in 0.009350 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.863996 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/Microsoft.Scripting.dll
-  artifactKey: Guid(f7ead484fdbb3814c930e72ebe106d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/Microsoft.Scripting.dll using Guid(f7ead484fdbb3814c930e72ebe106d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f04f78cb7f6bff4b541b6ea01d3879') in 0.019752 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.512763 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/IronPython.Modules.dll
-  artifactKey: Guid(9631035253a4e2244b5a48252a5fab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/IronPython.Modules.dll using Guid(9631035253a4e2244b5a48252a5fab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3ba4bf2f8c50c916c55bae3baac199') in 0.005521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.821803 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/IronPython.dll
-  artifactKey: Guid(b3076a16f3c3bb54c87eae00fd63a300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/IronPython.dll using Guid(b3076a16f3c3bb54c87eae00fd63a300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0caaed47c9a050927896c148c7e2fbd') in 0.006054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.358875 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/IronPython.Modules.xml
-  artifactKey: Guid(dde6206c2e981984f9c56130e8eb3ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/IronPython.Modules.xml using Guid(dde6206c2e981984f9c56130e8eb3ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c920c6eba491f8052b66c79abfd520') in 0.020789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.084507 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/IronPython.xml
-  artifactKey: Guid(d0c71f4f864f0bd4bbaa760639709ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/IronPython.xml using Guid(d0c71f4f864f0bd4bbaa760639709ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9514f337edff4ebce1f79ed658687b') in 0.003952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.029861 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/DLLs
-  artifactKey: Guid(4f17cdb70db0f9545be2b7277479a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/DLLs using Guid(4f17cdb70db0f9545be2b7277479a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf16e98f54bbf020ce0b4efcada0e8a') in 0.006159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.907226 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/DLLs/IronPython.Wpf.dll
-  artifactKey: Guid(336c7dd547f403d4d8bd517149765c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/DLLs/IronPython.Wpf.dll using Guid(336c7dd547f403d4d8bd517149765c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c834579828008abe1f75f661b7484e27') in 0.006004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.129461 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/DLLs/IronPython.Wpf.xml
-  artifactKey: Guid(6e358e9f9eff04e42bbfc408ab5bf9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/DLLs/IronPython.Wpf.xml using Guid(6e358e9f9eff04e42bbfc408ab5bf9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1eb0318301d8bae0f72f57556f6612d') in 0.002650 seconds 
+  Time since last request: 0.000272 seconds.
+  path: Assets/Plugins/IronPython.3.4.0-alpha1/Lib/site-packages/easy_install.py
+  artifactKey: Guid(ee34c302e9f71ed41ad6d03c5b1aa86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/IronPython.3.4.0-alpha1/Lib/site-packages/easy_install.py using Guid(ee34c302e9f71ed41ad6d03c5b1aa86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65d1f29583f41de2dd1ee580be4f63c') in 0.028996 seconds 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007328 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 6.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.6 MB.
-System memory in use after: 128.7 MB.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3832.
-Total: 2.223900 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.166700 ms MarkObjects: 1.730600 ms  DeleteObjects: 0.076400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.888863 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/DLLs/IronPython.SQLite.dll
-  artifactKey: Guid(52706068d2698e34581907bc8a28213b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/DLLs/IronPython.SQLite.dll using Guid(52706068d2698e34581907bc8a28213b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399d6a47c36821b4d6f8e849d55ebea4') in 0.010018 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005766 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.6 MB.
-System memory in use after: 128.7 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3836.
-Total: 2.494500 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.158500 ms MarkObjects: 1.965500 ms  DeleteObjects: 0.085300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.836516 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyw32.exe.config
-  artifactKey: Guid(c4caf67f2176e3841b904965c9938b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyw32.exe.config using Guid(c4caf67f2176e3841b904965c9938b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594947b1e11b1049db82b42650f9fdc0') in 0.019005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.550540 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/Microsoft.Dynamic.dll
-  artifactKey: Guid(9f9f443b015fad549aff8d39bdbb487d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/Microsoft.Dynamic.dll using Guid(9f9f443b015fad549aff8d39bdbb487d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e65812c836cabf4c121c90f6c6b8317') in 0.005884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.118511 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/System.Buffers.dll
-  artifactKey: Guid(972e4e3a406d1034db4bc1e1125032c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/System.Buffers.dll using Guid(972e4e3a406d1034db4bc1e1125032c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1071b0a38e326520446bb7f877881d3f') in 0.006296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.587069 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/System.Memory.dll
-  artifactKey: Guid(90ccadf15d60fe84f93cdf58d7b306e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/System.Memory.dll using Guid(90ccadf15d60fe84f93cdf58d7b306e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c05e3e3658356313898a2aaad5add02') in 0.009407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.490571 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/System.Runtime.CompilerServices.Unsafe.dll
-  artifactKey: Guid(e7cf86c7ae397eb4daff30a2109b5a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/System.Runtime.CompilerServices.Unsafe.dll using Guid(e7cf86c7ae397eb4daff30a2109b5a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d38b39975ef3e4f112c2eb6d2c9e597') in 0.005430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.488867 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/IKVM.Reflection.dll
-  artifactKey: Guid(37e617b4b9f7fa440ae1f7447dfdc466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/IKVM.Reflection.dll using Guid(37e617b4b9f7fa440ae1f7447dfdc466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d35d40f8f1a08b63323ce6dc21f3cf') in 0.005525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.494065 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/IKVM.Reflection.License.txt
-  artifactKey: Guid(740eaa18eaab50e42ae16644556ac54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/IKVM.Reflection.License.txt using Guid(740eaa18eaab50e42ae16644556ac54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9505f6c75497a9e639e62c312f6654') in 0.014878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.382491 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipy.exe
-  artifactKey: Guid(88d2cc6a5c41f554bb5379d6e5b1181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipy.exe using Guid(88d2cc6a5c41f554bb5379d6e5b1181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594461b791168f3dda08707f4fc2ba7e') in 0.008636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.266382 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipy.exe.config
-  artifactKey: Guid(28475c23e530e3145b90b6f718c21338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipy.exe.config using Guid(28475c23e530e3145b90b6f718c21338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fe7599372646501b71c4c76141bf10') in 0.005972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.164320 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipy32.exe
-  artifactKey: Guid(dcf17315d8f28c842aaa9b28cb317909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipy32.exe using Guid(dcf17315d8f28c842aaa9b28cb317909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5bfc0ea18636aa77bff6e511c472e6') in 0.007344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.103580 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipy32.exe.config
-  artifactKey: Guid(e7bca303ba47af145ba8618b5a46bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipy32.exe.config using Guid(e7bca303ba47af145ba8618b5a46bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ca1449e252a375128d2d6c3631d928') in 0.006287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.474177 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyc.exe
-  artifactKey: Guid(1625447830b9f884d8f7064fe666d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyc.exe using Guid(1625447830b9f884d8f7064fe666d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9041918aa991ee154f03f9a4a3c143a2') in 0.007105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.202628 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyc.exe.config
-  artifactKey: Guid(de3dd7a69e3b1244fac8741a0a2ac236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyc.exe.config using Guid(de3dd7a69e3b1244fac8741a0a2ac236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c33a0607b9e041f7877e4d30b8ab4d') in 0.007634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.934975 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyw.exe
-  artifactKey: Guid(8d15e902f1e8a3a43b64acf1ebda777e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyw.exe using Guid(8d15e902f1e8a3a43b64acf1ebda777e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de6cfd845d185d248f63e8ebed7e398') in 0.008363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.624304 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyw.exe.config
-  artifactKey: Guid(0e6af33c43a695247ba7a0e1675666fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyw.exe.config using Guid(0e6af33c43a695247ba7a0e1675666fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45883a26bf3464269e5d2ee8424cabfb') in 0.007525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.747768 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyw32.exe
-  artifactKey: Guid(246c70e48d3d6984c83bfdf277b7eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/ipyw32.exe using Guid(246c70e48d3d6984c83bfdf277b7eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03faf4e03412f042bb41ff93a27fc260') in 0.007655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.123350 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/Microsoft.Scripting.xml
-  artifactKey: Guid(e25ca11ee800a7c4e89a60547548b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/Microsoft.Scripting.xml using Guid(e25ca11ee800a7c4e89a60547548b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7322998772f0899c0981b2604b22b3f') in 0.003077 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002563 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.912 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.1 MB.
-System memory in use after: 128.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3840.
-Total: 2.223000 ms (FindLiveObjects: 0.244300 ms CreateObjectMapping: 0.116900 ms MarkObjects: 1.784100 ms  DeleteObjects: 0.077100 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3826.
+Total: 3.308200 ms (FindLiveObjects: 0.298200 ms CreateObjectMapping: 0.164600 ms MarkObjects: 2.682200 ms  DeleteObjects: 0.162200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.055884 seconds.
+Registered in 0.006880 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
+- Completed reload, in  0.974 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 128.7 MB.
 System memory in use after: 128.8 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3844.
-Total: 2.380400 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.182500 ms MarkObjects: 1.842300 ms  DeleteObjects: 0.083200 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3830.
+Total: 2.413800 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.167600 ms MarkObjects: 1.880100 ms  DeleteObjects: 0.097100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007475 seconds.
+Registered in 0.007036 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.900 seconds
+- Completed reload, in  1.005 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 128.8 MB.
 System memory in use after: 128.9 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3848.
-Total: 2.413500 ms (FindLiveObjects: 0.235100 ms CreateObjectMapping: 0.126300 ms MarkObjects: 1.969100 ms  DeleteObjects: 0.082500 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3834.
+Total: 2.520800 ms (FindLiveObjects: 0.378000 ms CreateObjectMapping: 0.182300 ms MarkObjects: 1.866700 ms  DeleteObjects: 0.092300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006791 seconds.
+Registered in 0.006863 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
+- Completed reload, in  0.955 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.8 MB.
-System memory in use after: 128.9 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3852.
-Total: 2.385400 ms (FindLiveObjects: 0.246800 ms CreateObjectMapping: 0.151100 ms MarkObjects: 1.889900 ms  DeleteObjects: 0.096700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 380.829863 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/net46/DLLs/IronPython.SQLite.xml
-  artifactKey: Guid(ee9ebe50ffebae54aaf42ff01db28024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/net46/DLLs/IronPython.SQLite.xml using Guid(ee9ebe50ffebae54aaf42ff01db28024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8a2c7f371557f4afe91bfbd7ce7d9b') in 0.016487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 278.285999 seconds.
-  path: Assets/Plugins/IronPython.3.4.0-alpha1/Lib/site-packages
-  artifactKey: Guid(347725fd2a201bf41a43f1abf0e0a28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/IronPython.3.4.0-alpha1/Lib/site-packages using Guid(347725fd2a201bf41a43f1abf0e0a28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db853980f210fc19f9df3daa7d8f34ac') in 0.006695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 93.593622 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.008781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.546217 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(adca088ce14a80a49aab3aa1903b130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(adca088ce14a80a49aab3aa1903b130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9deb6f15ca61d3c576da1f0a0c8eec3') in 0.005825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.374731 seconds.
-  path: Assets/Python
-  artifactKey: Guid(8491750e665fc6849a3d206b3810dc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Python using Guid(8491750e665fc6849a3d206b3810dc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c109a196225fa4fcd5665d3382b22ea3') in 0.006281 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006849 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 128.8 MB.
 System memory in use after: 128.9 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3857.
-Total: 2.235600 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.146700 ms MarkObjects: 1.761700 ms  DeleteObjects: 0.084000 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3838.
+Total: 2.983300 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.145300 ms MarkObjects: 2.478600 ms  DeleteObjects: 0.109300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007357 seconds.
+Registered in 0.007410 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.916 seconds
+- Completed reload, in  0.974 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 128.8 MB.
 System memory in use after: 128.9 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3861.
-Total: 2.247900 ms (FindLiveObjects: 0.229400 ms CreateObjectMapping: 0.163500 ms MarkObjects: 1.773600 ms  DeleteObjects: 0.080600 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3842.
+Total: 2.415100 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.150700 ms MarkObjects: 1.933700 ms  DeleteObjects: 0.088400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007275 seconds.
+Registered in 0.006913 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.934 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.8 MB.
-System memory in use after: 128.9 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3865.
-Total: 2.241700 ms (FindLiveObjects: 0.229800 ms CreateObjectMapping: 0.107300 ms MarkObjects: 1.825400 ms  DeleteObjects: 0.078300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007062 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.062 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.9 MB.
-System memory in use after: 129.0 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3869.
-Total: 5.031800 ms (FindLiveObjects: 0.350600 ms CreateObjectMapping: 0.277000 ms MarkObjects: 4.234900 ms  DeleteObjects: 0.167600 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.5 MB.
-System memory in use after: 62.6 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3869.
-Total: 2.321100 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.136900 ms MarkObjects: 1.889900 ms  DeleteObjects: 0.077700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 173.680694 seconds.
-  path: Assets/Scripts/CallingPython.cs
-  artifactKey: Guid(3999235edde9fc24089b7308cc60928c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CallingPython.cs using Guid(3999235edde9fc24089b7308cc60928c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0129137ec6e132904eb90e41a01954a') in 0.016844 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006945 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.168 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.9 MB.
-System memory in use after: 129.0 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3873.
-Total: 2.702000 ms (FindLiveObjects: 0.274800 ms CreateObjectMapping: 0.257200 ms MarkObjects: 2.073100 ms  DeleteObjects: 0.096000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.551396 seconds.
-  path: Assets/Scripts/CallingPython.cs
-  artifactKey: Guid(3999235edde9fc24089b7308cc60928c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CallingPython.cs using Guid(3999235edde9fc24089b7308cc60928c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664d4492e87191d81fc161b836a94a04') in 0.007956 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006957 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.898 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.9 MB.
-System memory in use after: 129.0 MB.
+System memory in use before: 128.8 MB.
+System memory in use after: 128.9 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3877.
-Total: 2.679400 ms (FindLiveObjects: 0.239900 ms CreateObjectMapping: 0.120700 ms MarkObjects: 2.232500 ms  DeleteObjects: 0.085500 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3846.
+Total: 2.463600 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.117100 ms MarkObjects: 2.016300 ms  DeleteObjects: 0.084300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006828 seconds.
+Registered in 0.006972 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -628,21 +212,241 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
+- Completed reload, in  0.952 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3850.
+Total: 2.546200 ms (FindLiveObjects: 0.339600 ms CreateObjectMapping: 0.185100 ms MarkObjects: 1.931500 ms  DeleteObjects: 0.089000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006860 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3854.
+Total: 2.344400 ms (FindLiveObjects: 0.235800 ms CreateObjectMapping: 0.144800 ms MarkObjects: 1.842400 ms  DeleteObjects: 0.120600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006712 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 128.9 MB.
 System memory in use after: 129.0 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3881.
-Total: 2.587900 ms (FindLiveObjects: 0.242800 ms CreateObjectMapping: 0.133200 ms MarkObjects: 2.085400 ms  DeleteObjects: 0.122500 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3858.
+Total: 2.725300 ms (FindLiveObjects: 0.251700 ms CreateObjectMapping: 0.138100 ms MarkObjects: 2.229800 ms  DeleteObjects: 0.104600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006636 seconds.
+Registered in 0.007022 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3862.
+Total: 2.479500 ms (FindLiveObjects: 0.237600 ms CreateObjectMapping: 0.113700 ms MarkObjects: 2.002600 ms  DeleteObjects: 0.124900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008589 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.947 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3866.
+Total: 3.072900 ms (FindLiveObjects: 0.296200 ms CreateObjectMapping: 0.215400 ms MarkObjects: 2.463700 ms  DeleteObjects: 0.096600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006807 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3870.
+Total: 2.719800 ms (FindLiveObjects: 0.295800 ms CreateObjectMapping: 0.171900 ms MarkObjects: 2.148500 ms  DeleteObjects: 0.102400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007191 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3874.
+Total: 2.290900 ms (FindLiveObjects: 0.225300 ms CreateObjectMapping: 0.126400 ms MarkObjects: 1.854700 ms  DeleteObjects: 0.083900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007339 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3878.
+Total: 2.724300 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.153100 ms MarkObjects: 2.218000 ms  DeleteObjects: 0.100800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006878 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.947 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 2.504600 ms (FindLiveObjects: 0.272600 ms CreateObjectMapping: 0.160200 ms MarkObjects: 1.985300 ms  DeleteObjects: 0.085700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006770 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3886.
+Total: 2.623700 ms (FindLiveObjects: 0.357300 ms CreateObjectMapping: 0.184700 ms MarkObjects: 1.990200 ms  DeleteObjects: 0.090100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006900 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3890.
+Total: 2.796800 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.237900 ms MarkObjects: 2.130600 ms  DeleteObjects: 0.101500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006788 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -650,59 +454,235 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.896 seconds
+- Completed reload, in  0.918 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 128.9 MB.
 System memory in use after: 129.0 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3885.
-Total: 2.233400 ms (FindLiveObjects: 0.232100 ms CreateObjectMapping: 0.140700 ms MarkObjects: 1.779600 ms  DeleteObjects: 0.080100 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3894.
+Total: 2.295000 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.122900 ms MarkObjects: 1.840100 ms  DeleteObjects: 0.078500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007085 seconds.
+Registered in 0.006757 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3898.
+Total: 2.633800 ms (FindLiveObjects: 0.251100 ms CreateObjectMapping: 0.164300 ms MarkObjects: 2.124700 ms  DeleteObjects: 0.092700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007376 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3902.
+Total: 2.264200 ms (FindLiveObjects: 0.250500 ms CreateObjectMapping: 0.128800 ms MarkObjects: 1.800200 ms  DeleteObjects: 0.083900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007425 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3906.
+Total: 2.330000 ms (FindLiveObjects: 0.264100 ms CreateObjectMapping: 0.153800 ms MarkObjects: 1.827500 ms  DeleteObjects: 0.083700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007094 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3910.
+Total: 2.417800 ms (FindLiveObjects: 0.258100 ms CreateObjectMapping: 0.176900 ms MarkObjects: 1.902100 ms  DeleteObjects: 0.079600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006683 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3914.
+Total: 2.134100 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.107100 ms MarkObjects: 1.699500 ms  DeleteObjects: 0.081700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007063 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3918.
+Total: 2.826300 ms (FindLiveObjects: 0.437500 ms CreateObjectMapping: 0.243700 ms MarkObjects: 2.043500 ms  DeleteObjects: 0.100600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006882 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3922.
+Total: 2.637000 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.191000 ms MarkObjects: 2.056500 ms  DeleteObjects: 0.091200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006790 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3926.
+Total: 2.490900 ms (FindLiveObjects: 0.282900 ms CreateObjectMapping: 0.140300 ms MarkObjects: 1.979300 ms  DeleteObjects: 0.087700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008455 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3930.
+Total: 2.451700 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.172200 ms MarkObjects: 1.940900 ms  DeleteObjects: 0.086600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006695 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.928 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.9 MB.
-System memory in use after: 129.0 MB.
+System memory in use before: 129.0 MB.
+System memory in use after: 129.1 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3889.
-Total: 2.658600 ms (FindLiveObjects: 0.241300 ms CreateObjectMapping: 0.160100 ms MarkObjects: 2.174100 ms  DeleteObjects: 0.082300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006738 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jacob Bream\Documents\Biomojo\Unipy\Unipy5\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.9 MB.
-System memory in use after: 129.0 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3893.
-Total: 2.486700 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.133700 ms MarkObjects: 2.041800 ms  DeleteObjects: 0.080900 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3934.
+Total: 2.266900 ms (FindLiveObjects: 0.250900 ms CreateObjectMapping: 0.153100 ms MarkObjects: 1.776900 ms  DeleteObjects: 0.085300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
